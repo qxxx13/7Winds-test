@@ -54,5 +54,14 @@ export const themeOptions = createTheme({
                 },
             },
         },
+        MuiTextField: {
+            styleOverrides: {
+                root: {
+                    '& .MuiOutlinedInput-root': {
+                        height: 35,
+                    },
+                },
+            },
+        },
     },
 });
